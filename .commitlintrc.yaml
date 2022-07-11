@@ -1,0 +1,17 @@
+extends:
+  - "@commitlint/config-conventional"
+
+rules:
+  "type-enum":
+    - 2
+    - always
+    - - feat # add new feature.
+      - base # basic configs or manifest.
+      - temp # something unfinished but set an recovery point.
+      - fix #  fix existing bugs.
+      - doc #  comments or docs.
+      - quit # quit current branch.
+      - optm # optimization without new features.
+      - mark # mark something todo.
+      - revo # beginning of some breaking changes.
+      - sync # merge all branches for sync something important.
