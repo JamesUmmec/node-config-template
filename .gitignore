@@ -1,0 +1,6 @@
+# pnpm is the only recommended node package manager.
+# you can also use npm and yarn,
+# but don't add their lockfiles into vcs.
+node_modules
+package-lock.json
+yarn.lock
