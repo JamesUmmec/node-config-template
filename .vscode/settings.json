@@ -1,0 +1,107 @@
+{
+  // Multi-platform compatibilities.
+  "files.eol": "\n",
+  "editor.tabSize": 2,
+  "files.encoding": "utf8",
+  "editor.rulers": [80], // prettier default.
+
+  // Formatter configurations.
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.suggest.insertMode": "replace",
+    "editor.quickSuggestions": {
+      "strings": true
+    }
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.suggest.insertMode": "replace",
+    "editor.quickSuggestions": {
+      "strings": true
+    }
+  },
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[markdown]": {
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.wordWrap": "on",
+    "cSpell.fixSpellingWithRenameProvider": true,
+    "cSpell.advanced.feature.useReferenceProviderWithRename": true,
+    "cSpell.advanced.feature.useReferenceProviderRemove": "/^#+\\s/",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  // Mark and its highlights. (require ext)
+  "todo-tree.filtering.excludeGlobs": ["**/node_modules", ".git/**"],
+  "todo-tree.filtering.includeHiddenFiles": true,
+  "todo-tree.general.tags": ["temp", "bug", "todo", "doc"],
+  "todo-tree.highlights.customHighlight": {
+    "temp": {
+      "icon": "terminal",
+      "iconColour": "#d18989",
+      "foreground": "#262b2d",
+      "background": "#c67373"
+    },
+    "bug": {
+      "icon": "alert",
+      "iconColour": "#efcd5e",
+      "foreground": "#262b2d",
+      "background": "#f0cc60"
+    },
+    "todo": {
+      "icon": "check-circle",
+      "iconColour": "#89d5a5",
+      "foreground": "#262b2d",
+      "background": "#96d09f"
+    },
+    "doc": {
+      "icon": "question",
+      "iconColour": "#88bed6",
+      "foreground": "#262b2d",
+      "background": "#85c1db"
+    }
+  },
+
+  // Spell checker. (require ext)
+  "cSpell.useGitignore": true,
+  "cSpell.ignorePaths": [
+    "package-lock.json",
+    "yarn.lock",
+    "pnpm-lock.yaml",
+    ".git"
+  ],
+  "cSpell.words": [
+    "colour",
+    "esbenp",
+    "Gruntfuggly",
+    "gruvbox",
+    "jamesummex",
+    "jonathanharty",
+    "mhutchie",
+    "pnpm",
+    "uctakeoff"
+  ]
+}

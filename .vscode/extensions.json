@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    // necessary formatter.
+    "streetsidesoftware.code-spell-checker",
+    "esbenp.prettier-vscode",
+    "Gruntfuggly.todo-tree",
+
+    // other recommendations.
+    "mhutchie.git-graph",
+    "jonathanharty.gruvbox-material-icon-theme",
+    "jamesummex.optimized-dracula-theme",
+    "uctakeoff.vscode-counter"
+  ]
+}
